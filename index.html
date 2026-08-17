@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gina Aviles' computer science capstone portfolio featuring software engineering, algorithms, and database enhancements.">
+  <title>Gina Aviles | Computer Science Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Gina Aviles, home">
+        <span class="brand-mark" aria-hidden="true">GA</span>
+        <span>Gina Aviles</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Open navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a class="active" href="index.html">About</a>
+        <a href="code-review.html">Code Review</a>
+        <a href="artifacts.html">Artifacts</a>
+        <a class="button button-small" href="https://github.com/g-aviles" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">CS 499 · Computer Science Capstone</p>
+        <h1>Building thoughtful software from <span>idea to impact.</span></h1>
+        <p class="hero-lede">Welcome to my professional ePortfolio—a record of my growth in software engineering, algorithms and data structures, databases, communication, and secure development.</p>
+        <div class="hero-actions">
+          <a class="button" href="artifacts.html">Explore my work <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="code-review.html">Watch the code review <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="code-card" data-code-editor aria-label="Animated portfolio code editor">
+          <div class="editor-titlebar">
+            <div class="code-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span class="editor-filename"><span aria-hidden="true">TS</span> portfolio.ts</span>
+            <button class="editor-replay" type="button" data-code-replay aria-label="Replay code typing animation"><span aria-hidden="true">↻</span> Replay</button>
+          </div>
+          <div class="editor-workspace">
+            <div class="line-numbers" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span></div>
+            <pre aria-hidden="true"><code class="typing-code" data-code-typewriter>class Portfolio {
+  focus = [
+    "design",
+    "algorithms",
+    "data"
+  ];
+}</code></pre>
+            <span class="sr-only">TypeScript code defining a Portfolio class focused on design, algorithms, and data.</span>
+          </div>
+          <div class="editor-statusbar" aria-hidden="true"><span>main*</span><span data-code-position>Ln 1, Col 1</span><span>UTF-8</span><span>TypeScript</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="assessment-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Professional self-assessment</p>
+        <h2 id="assessment-title">How I approach computer science</h2>
+      </div>
+      <div class="assessment-grid">
+        <div class="prose reveal">
+          <p class="lead">Completing the Computer Science program has changed the way I approach technical problems. I now look beyond whether a program works and consider whether it is secure, maintainable, efficient, and useful to the people who depend on it.</p>
+          <p>Throughout the program, I developed skills in mobile application development, algorithms, databases, software testing, and user-interface design. More importantly, I learned how these areas work together to support a complete computing solution. Effective software begins with a clear understanding of the user’s needs, applies an appropriate technical design, protects the data it handles, and presents information in a way that its intended audience can understand. The enhancements in this portfolio demonstrate my progression from completing individual programming assignments to evaluating and improving complete software systems.</p>
+          <p>My coursework also strengthened my approach to collaboration and communication. I learned that successful collaboration depends on listening carefully, explaining technical decisions clearly, documenting work consistently, and remaining open to feedback. Code reviews, meaningful comments, organized project structures, and descriptive naming conventions allow other developers to understand and maintain a solution. Communication with nontechnical stakeholders requires a different approach because technical results must be translated into useful information without sacrificing accuracy. The Customer Order and RMA Dashboard demonstrates this ability by presenting thousands of database records through understandable filters, summary metrics, charts, and tables. It also avoids conclusions about revenue and time-based trends because the source data does not contain the information needed to support those claims.</p>
+          <p>The Course Plan Manager enhancement demonstrates my ability to apply data structures and algorithms to a practical problem. The original project relied on a binary search tree, while the enhanced solution uses hash maps to provide average O(1) course lookups, sets to prevent duplicate relationships, and forward and reverse adjacency lists to represent prerequisite connections. Depth-first search detects circular prerequisites in O(V + E) time, and a linear comparison process previews changes between different course-plan versions. Developing this enhancement improved my ability to select data structures according to the operations a system must perform. It also strengthened my understanding of the trade-offs among execution speed, memory usage, validation, and maintainability.</p>
+          <p>The Timely enhancement represents my growth in software engineering and application design. I originally developed Timely as a Java application for Android and later rebuilt it with Flutter and Dart. The enhanced version uses a shared cross-platform codebase and a more modular structure with clearer separation among the interface, authentication, event-management, and data-access components. I also added input validation, automated tests, password hashing, account-specific event storage, and database migrations. This process required me to evaluate the limitations of the original application, learn a different framework and programming language, and recreate the application without losing its primary purpose.</p>
+          <p>The Customer Order and RMA Dashboard demonstrates my growth in database design and data analysis. I created a relational SQLite database, validated headerless source files before importing them, preserved the relationships among customers, orders, and return merchandise authorizations, and added indexes to support efficient retrieval. I centralized reusable create, read, update, and delete operations so that connections and transactions could be managed consistently. I then used Streamlit, pandas, and Plotly to transform the database into an interactive dashboard that supports filtering, analysis, and communication with different audiences.</p>
+          <p>Security has become an essential part of my development process rather than a feature considered only at the end of a project. Across these enhancements, I applied credential hashing, account-level data boundaries, parameterized queries, allowlists, foreign-key constraints, transaction rollback, and early input validation. These practices reduce the risk of unauthorized access, invalid data, SQL injection, and damaged relationships between records. They also demonstrate the importance of protecting confidentiality, integrity, and reliability throughout the design and implementation of a system.</p>
+          <p>Collectively, these artifacts represent the computer science professional I am becoming. I can review an existing system, identify meaningful opportunities for improvement, learn unfamiliar technologies, and support technical decisions with evidence. My professional goal is to continue developing accessible and dependable software while expanding my experience in cross-platform development, data-driven applications, automated testing, and secure system design. This portfolio documents what I have learned and provides a foundation for the work I hope to accomplish next.</p>
+        </div>
+        <aside class="profile-card reveal" aria-label="Portfolio focus">
+          <p class="mini-label">Portfolio focus</p>
+          <ul class="check-list">
+            <li><span>01</span> Software design &amp; engineering</li>
+            <li><span>02</span> Algorithms &amp; data structures</li>
+            <li><span>03</span> Database development</li>
+            <li><span>04</span> Security &amp; communication</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="shell">
+        <div class="section-heading split-heading reveal">
+          <div>
+            <p class="eyebrow">Featured enhancements</p>
+            <h2>Evidence of growth</h2>
+          </div>
+          <a class="text-link" href="artifacts.html">View all artifacts <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="card-grid">
+          <article class="project-card reveal">
+            <div class="card-top"><span class="card-number">01</span><span class="status status-complete">Complete</span></div>
+            <h3>Software Design &amp; Engineering</h3>
+            <p>Architecture, maintainability, functionality, and professional software-development practices.</p>
+            <a href="timely.html" aria-label="View Timely software engineering artifact">View enhancement <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="project-card reveal">
+            <div class="card-top"><span class="card-number">02</span><span class="status status-complete">Complete</span></div>
+            <h3>Algorithms &amp; Data Structures</h3>
+            <p>Efficient problem-solving supported by intentional algorithm and data-structure choices.</p>
+            <a href="course-plan.html" aria-label="View Course Plan Manager algorithms artifact">View enhancement <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="project-card reveal">
+            <div class="card-top"><span class="card-number">03</span><span class="status status-complete">Complete</span></div>
+            <h3>Databases</h3>
+            <p>Reliable data storage, retrieval, validation, and integration across an application.</p>
+            <a href="rma-dashboard.html" aria-label="View Customer RMA Dashboard database artifact">View enhancement <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta shell reveal">
+      <div>
+        <p class="eyebrow">Start with the process</p>
+        <h2>See the foundation for each enhancement.</h2>
+      </div>
+      <a class="button button-light" href="code-review.html">Watch code review <span aria-hidden="true">▶</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">GA</span><span>Gina Aviles</span></a><p>Computer Science ePortfolio</p></div>
+      <div class="footer-links"><a href="code-review.html">Code Review</a><a href="artifacts.html">Artifacts</a><a href="https://github.com/g-aviles" target="_blank" rel="noreferrer">GitHub</a></div>
+      <p class="copyright">&copy; <span data-year></span> Gina Aviles</p>
+    </div>
+  </footer>
+</body>
+</html>
